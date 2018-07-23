@@ -1,0 +1,32 @@
+public class pattern6 {
+	public static void main(String args[]){
+		int n=5,i,j,r,m=2;char c;
+		for(i=1;i<=n;i++){
+			for(j=n-i;j>0;j--){
+				System.out.print(" ");
+			}if(i==1)System.out.print("1");
+			else{
+				for(r=1;r<i+m;r++){
+					System.out.print(m);
+				}m++;
+				
+			}System.out.println();
+		}m=4;
+		for(i=4;i>=1;i--){
+			for(j=n-i;j>0;j--){
+				System.out.print(" ");
+			}if(i==1)System.out.print("A");
+			
+			else{
+				for(r=1;r<i+m;r++){
+					int a=i+64;
+					c=(char)a;
+					System.out.print(c);
+				}m--;
+				
+			}System.out.println();
+		}
+		
+	}
+
+}

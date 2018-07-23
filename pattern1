@@ -1,0 +1,17 @@
+public class pattern1 {
+	public static void main(String args[]){
+		int n=5,i,j,r,m=2;
+		for(i=1;i<=n;i++){
+			for(j=n-i;j>0;j--){
+				System.out.print(" ");
+			}if(i==1)System.out.print("1");
+			else{
+				for(r=1;r<i+m;r++){
+					System.out.print(m);
+				}m++;
+				
+			}System.out.println();
+		}
+	}
+
+}

@@ -22,3 +22,10 @@ public class pattern4 {
 	}
 
 }
+/*
+    1
+   12A
+  123BA
+ 1234CBA
+12345DCBA
+*/
